@@ -5,8 +5,8 @@
     "inferenceAccelerators": [],
     "containerDefinitions": [
         {
-            "name": "ecs-devops-sandbox",
-            "image": "ecs-devops-sandbox-repository:00000",
+            "name": "ecs-devops-noah",
+            "image": "ecs-devops-noah-repository:00000",
             "resourceRequirements": null,
             "essential": true,
             "portMappings": [
@@ -20,10 +20,10 @@
     ],
     "volumes": [],
     "networkMode": "awsvpc",
-    "memory": "512",
-    "cpu": "256",
-    "executionRoleArn": "arn:aws:iam::131402054384:role/ecs-devops-sandbox-execution-role",
-    "family": "ecs-devops-sandbox-task-definition",
+    "memory": "1024",
+    "cpu": "512",
+    "executionRoleArn": "arn:aws:iam::452023117481:role/ecs-devops-noah-execution-role",
+    "family": "ecs-devops-noah-task-definition",
     "taskRoleArn": "",
     "placementConstraints": []
 }
